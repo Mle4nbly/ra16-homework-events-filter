@@ -1,0 +1,41 @@
+.container {
+  width: 50%;
+
+  margin: 0 auto;
+}
+
+.toolbar {
+  margin: 1em 0;
+}
+
+.btn-filter {
+  cursor: pointer;
+
+  height: 2.5em;
+  border: .2em solid #555555;
+  margin-right: .5em;
+  padding: .5em 1em;
+
+  background-color: white;
+  color: #555555;
+}
+
+.btn-filter.selected {
+  background-color: #555555;
+  color: white;
+}
+
+.projects {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.project {
+  display: inline-block;
+  margin-bottom: calc(1em - 4px);
+  width: 100%;
+}
+
+.project img {
+  width: 100%;
+}
