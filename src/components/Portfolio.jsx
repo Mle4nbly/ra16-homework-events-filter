@@ -79,14 +79,14 @@ export default class Portfolio extends Component {
       : projects.filter( project => project.category === selectedFilter );
 
     return (
-      <div>
+      <>
         <Toolbar
           filters={filters}
           selected={selectedFilter}
           onSelectFilter={this.onSelectFilter}
         />
         <ProjectList projects={filteredProjects} />
-      </div>
+      </>
     )
   }
 }
