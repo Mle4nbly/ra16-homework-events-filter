@@ -1,7 +1,7 @@
 function Toolbar({ filters, selected, onSelectFilter }) {
   return (
     <div className="toolbar">
-      {filters.map(filter => (
+      {filters.map((filter) => (
         <button
           type="button"
           className={`btn-filter ${filter === selected ? "selected" : ""}`}
@@ -12,7 +12,7 @@ function Toolbar({ filters, selected, onSelectFilter }) {
         </button>
       ))}
     </div>
-  )
+  );
 }
 
-export default Toolbar
+export default Toolbar;
